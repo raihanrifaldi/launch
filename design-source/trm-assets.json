@@ -1,0 +1,102 @@
+[
+  {
+    "slot": "system",
+    "node": "900:952",
+    "hash": "034370c2b6c0a9b885c6179ae436db98eaf7a0d4",
+    "existing": null,
+    "width": 1866,
+    "height": 957,
+    "bytes": 552061,
+    "local": "trm-system.png"
+  },
+  {
+    "slot": "handover",
+    "node": "900:957",
+    "hash": "8204099de9d2d3acb2a0d9c13f5f11566ad6f05b",
+    "existing": null,
+    "width": 1280,
+    "height": 853,
+    "bytes": 60658,
+    "local": "trm-handover.jpg"
+  },
+  {
+    "slot": "recruitment",
+    "node": "900:962",
+    "hash": "ce2a70acf34b8293ac11f731c1c16957a6ff17c6",
+    "existing": null,
+    "width": 4032,
+    "height": 2268,
+    "bytes": 2972397,
+    "local": "trm-recruitment.jpg"
+  },
+  {
+    "slot": "hero",
+    "node": "900:967",
+    "hash": "e6ba6c721d9478330af0d062cd5aac4fd9155bbd",
+    "existing": null,
+    "width": 4032,
+    "height": 2268,
+    "bytes": 3318365,
+    "local": "trm-hero.jpg"
+  },
+  {
+    "slot": "role",
+    "node": "900:973",
+    "hash": "f61eaafcd1960110fb5bcfb23d8b35e4eb72b09e",
+    "existing": "mystery-role.png",
+    "width": 122,
+    "height": 122,
+    "bytes": 5296,
+    "local": "mystery-role.png"
+  },
+  {
+    "slot": "date",
+    "node": "900:978",
+    "hash": "a31d6a3f8ac0a4e1a0da988c436d651f393d98e3",
+    "existing": "mystery-date.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 11240,
+    "local": "mystery-date.png"
+  },
+  {
+    "slot": "category",
+    "node": "900:983",
+    "hash": "70c44c7397125cfcedf23ad6327a4aa87ba3f4be",
+    "existing": "mystery-category.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 8855,
+    "local": "mystery-category.png"
+  },
+  {
+    "slot": "company",
+    "node": "900:988",
+    "hash": "6cc9468a9da3268e7792861c37ddd54767cafb85",
+    "existing": "mystery-company.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 10496,
+    "local": "mystery-company.png"
+  },
+  {
+    "slot": "next",
+    "node": "900:1033",
+    "hash": "1b52e5fcbdd34b06bbc415cccb809c4167b43f72",
+    "existing": "mystery-next.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 8897,
+    "local": "mystery-next.png"
+  },
+  {
+    "slot": "banner",
+    "node": "900:1035",
+    "hash": "b210601fa3c3ba804710c5821321e9c5e8bfc60b",
+    "existing": "mystery-banner.jpg",
+    "width": 1920,
+    "height": 1280,
+    "bytes": 121348,
+    "local": "mystery-banner.jpg"
+  }
+]

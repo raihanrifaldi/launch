@@ -1,0 +1,79 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.5.2
+2 info using node@v20.13.1
+3 timing npm:load:whichnode Completed in 2ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:file:C:\Users\raiha\Downloads\Launch\portfolio\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 2ms
+11 timing config:load:file:C:\Users\raiha\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\raiha\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 1ms
+16 timing config:load Completed in 11ms
+17 timing npm:load:configload Completed in 11ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 0ms
+21 verbose title npm install playwright
+22 verbose argv "install" "--no-audit" "--no-fund" "--cache" "C:\\Users\\raiha\\Downloads\\Launch\\.npm-cache" "--save-dev" "playwright"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 0ms
+25 verbose logfile logs-max:10 dir:C:\Users\raiha\Downloads\Launch\.npm-cache\_logs\2026-11-18T03_59_43_568Z-
+26 verbose logfile C:\Users\raiha\Downloads\Launch\.npm-cache\_logs\2026-11-18T03_59_43_568Z-debug-0.log
+27 timing npm:load:logFile Completed in 3ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 47ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing arborist:ctor Completed in 0ms
+34 timing idealTree:init Completed in 9ms
+35 timing idealTree:userRequests Completed in 5ms
+36 silly idealTree buildDeps
+37 silly fetch manifest playwright@*
+38 http fetch GET 200 https://registry.npmjs.org/playwright 474ms (cache miss)
+39 silly placeDep ROOT playwright@1.65.1 OK for:  want: *
+40 silly fetch manifest playwright-core@1.65.1
+41 http fetch GET 200 https://registry.npmjs.org/playwright-core 399ms (cache miss)
+42 timing idealTree:#root Completed in 1087ms
+43 silly placeDep ROOT playwright-core@1.65.1 OK for: playwright@1.65.1 want: 1.65.1
+44 timing idealTree:node_modules/playwright Completed in 2ms
+45 timing idealTree:node_modules/playwright-core Completed in 0ms
+46 timing idealTree:buildDeps Completed in 1089ms
+47 timing idealTree:fixDepFlags Completed in 1ms
+48 timing idealTree Completed in 1104ms
+49 timing reify:loadTrees Completed in 1105ms
+50 timing reify:diffTrees Completed in 1ms
+51 silly reify moves {}
+52 timing reify:retireShallow Completed in 1ms
+53 timing reify:createSparse Completed in 8ms
+54 timing reify:loadBundles Completed in 0ms
+55 silly tarball no local data for playwright-core@https://registry.npmjs.org/playwright-core/-/playwright-core-1.65.1.tgz. Extracting by manifest.
+56 silly tarball no local data for playwright@https://registry.npmjs.org/playwright/-/playwright-1.65.1.tgz. Extracting by manifest.
+57 http fetch GET 200 https://registry.npmjs.org/playwright/-/playwright-1.65.1.tgz 285ms (cache miss)
+58 timing reifyNode:node_modules/playwright Completed in 293ms
+59 http fetch GET 200 https://registry.npmjs.org/playwright-core/-/playwright-core-1.65.1.tgz 449ms (cache miss)
+60 timing reifyNode:node_modules/playwright-core Completed in 456ms
+61 timing reify:unpack Completed in 456ms
+62 timing reify:unretire Completed in 0ms
+63 timing build:queue Completed in 1ms
+64 timing build:link:node_modules/playwright Completed in 6ms
+65 timing build:link:node_modules/playwright-core Completed in 6ms
+66 timing build:link Completed in 6ms
+67 timing build:deps Completed in 8ms
+68 timing build Completed in 8ms
+69 timing reify:build Completed in 9ms
+70 timing reify:trash Completed in 0ms
+71 timing reify:save Completed in 7ms
+72 timing reify Completed in 1593ms
+73 silly ADD node_modules/playwright-core
+74 silly ADD node_modules/playwright
+75 timing command:install Completed in 1598ms
+76 verbose exit 0
+77 timing npm Completed in 2482ms
+78 info ok

@@ -1,0 +1,1922 @@
+[
+  {
+    "id": "900:662",
+    "depth": 0,
+    "type": "FRAME",
+    "name": "14_Contact Page",
+    "text": null,
+    "size": {
+      "x": 1920,
+      "y": 2263
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 3580,
+      "m10": 0,
+      "m11": 1,
+      "m12": 4779
+    },
+    "visible": true
+  },
+  {
+    "id": "900:663",
+    "depth": 1,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "BG",
+    "text": null,
+    "size": {
+      "x": 1920,
+      "y": 1731
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 532
+    },
+    "visible": true
+  },
+  {
+    "id": "900:664",
+    "depth": 1,
+    "type": "FRAME",
+    "name": "Contact",
+    "text": null,
+    "size": {
+      "x": 1290,
+      "y": 317
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 300,
+      "m10": 0,
+      "m11": 1,
+      "m12": 1192
+    },
+    "visible": true
+  },
+  {
+    "id": "900:665",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "03",
+    "text": null,
+    "size": {
+      "x": 410,
+      "y": 317
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 880,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:666",
+    "depth": 3,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2497",
+    "text": null,
+    "size": {
+      "x": 410,
+      "y": 317
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:667",
+    "depth": 3,
+    "type": "BOOLEAN_OPERATION",
+    "name": "Intersect",
+    "text": null,
+    "size": {
+      "x": null,
+      "y": null
+    },
+    "transform": {
+      "m00": null,
+      "m01": null,
+      "m02": null,
+      "m10": null,
+      "m11": null,
+      "m12": null
+    },
+    "visible": true
+  },
+  {
+    "id": "900:668",
+    "depth": 3,
+    "type": "BOOLEAN_OPERATION",
+    "name": "Intersect",
+    "text": null,
+    "size": {
+      "x": null,
+      "y": null
+    },
+    "transform": {
+      "m00": null,
+      "m01": null,
+      "m02": null,
+      "m10": null,
+      "m11": null,
+      "m12": null
+    },
+    "visible": true
+  },
+  {
+    "id": "900:669",
+    "depth": 3,
+    "type": "ELLIPSE",
+    "name": "Ellipse 1614",
+    "text": null,
+    "size": {
+      "x": 70,
+      "y": 70
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 170,
+      "m10": 0,
+      "m11": 1,
+      "m12": 45
+    },
+    "visible": true
+  },
+  {
+    "id": "900:670",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "",
+    "text": "phone",
+    "size": {
+      "x": 30,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 190,
+      "m10": 0,
+      "m11": 1,
+      "m12": 65
+    },
+    "visible": true
+  },
+  {
+    "id": "900:671",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "0851 9613 1320",
+    "text": "0851 9613 1320",
+    "size": {
+      "x": 107,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 151,
+      "m10": 0,
+      "m11": 1,
+      "m12": 197
+    },
+    "visible": true
+  },
+  {
+    "id": "900:672",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "Call us",
+    "text": "Call us",
+    "size": {
+      "x": 97,
+      "y": 48
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 156,
+      "m10": 0,
+      "m11": 1,
+      "m12": 137
+    },
+    "visible": true
+  },
+  {
+    "id": "900:673",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "02",
+    "text": null,
+    "size": {
+      "x": 410,
+      "y": 317
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 440,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:674",
+    "depth": 3,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2496",
+    "text": null,
+    "size": {
+      "x": 410,
+      "y": 317
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:675",
+    "depth": 3,
+    "type": "BOOLEAN_OPERATION",
+    "name": "Intersect",
+    "text": null,
+    "size": {
+      "x": null,
+      "y": null
+    },
+    "transform": {
+      "m00": null,
+      "m01": null,
+      "m02": null,
+      "m10": null,
+      "m11": null,
+      "m12": null
+    },
+    "visible": true
+  },
+  {
+    "id": "900:676",
+    "depth": 3,
+    "type": "BOOLEAN_OPERATION",
+    "name": "Intersect",
+    "text": null,
+    "size": {
+      "x": null,
+      "y": null
+    },
+    "transform": {
+      "m00": null,
+      "m01": null,
+      "m02": null,
+      "m10": null,
+      "m11": null,
+      "m12": null
+    },
+    "visible": true
+  },
+  {
+    "id": "900:677",
+    "depth": 3,
+    "type": "ELLIPSE",
+    "name": "Ellipse 1613",
+    "text": null,
+    "size": {
+      "x": 70,
+      "y": 70
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 170,
+      "m10": 0,
+      "m11": 1,
+      "m12": 45
+    },
+    "visible": true
+  },
+  {
+    "id": "900:678",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "",
+    "text": "envelope",
+    "size": {
+      "x": 30,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 190,
+      "m10": 0,
+      "m11": 1,
+      "m12": 65
+    },
+    "visible": true
+  },
+  {
+    "id": "900:679",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "raihanrifaldiii@gmail.com",
+    "text": "raihanrifaldiii@gmail.com",
+    "size": {
+      "x": 200,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 104,
+      "m10": 0,
+      "m11": 1,
+      "m12": 197
+    },
+    "visible": true
+  },
+  {
+    "id": "900:680",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "E-mail",
+    "text": "E-mail",
+    "size": {
+      "x": 86,
+      "y": 48
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 164,
+      "m10": 0,
+      "m11": 1,
+      "m12": 137
+    },
+    "visible": true
+  },
+  {
+    "id": "900:681",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "01",
+    "text": null,
+    "size": {
+      "x": 410,
+      "y": 317
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:682",
+    "depth": 3,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2513",
+    "text": null,
+    "size": {
+      "x": 410,
+      "y": 317
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:683",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "Jakarta barat, Indonesia",
+    "text": "Jakarta barat, Indonesia",
+    "size": {
+      "x": 172,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 119,
+      "m10": 0,
+      "m11": 1,
+      "m12": 197
+    },
+    "visible": true
+  },
+  {
+    "id": "900:684",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "Address",
+    "text": "Address",
+    "size": {
+      "x": 120,
+      "y": 48
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 145,
+      "m10": 0,
+      "m11": 1,
+      "m12": 140
+    },
+    "visible": true
+  },
+  {
+    "id": "900:685",
+    "depth": 3,
+    "type": "ELLIPSE",
+    "name": "Ellipse 1612",
+    "text": null,
+    "size": {
+      "x": 70,
+      "y": 70
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 170,
+      "m10": 0,
+      "m11": 1,
+      "m12": 45
+    },
+    "visible": true
+  },
+  {
+    "id": "900:686",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "",
+    "text": "location-dot",
+    "size": {
+      "x": 23,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 195,
+      "m10": 0,
+      "m11": 1,
+      "m12": 65
+    },
+    "visible": true
+  },
+  {
+    "id": "900:687",
+    "depth": 1,
+    "type": "FRAME",
+    "name": "Message",
+    "text": null,
+    "size": {
+      "x": 740,
+      "y": 410
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 880,
+      "m10": 0,
+      "m11": 1,
+      "m12": 662
+    },
+    "visible": true
+  },
+  {
+    "id": "900:688",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "Button",
+    "text": null,
+    "size": {
+      "x": 192,
+      "y": 60
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 350
+    },
+    "visible": true
+  },
+  {
+    "id": "900:689",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "Group 7571",
+    "text": null,
+    "size": {
+      "x": 132,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 30,
+      "m10": 0,
+      "m11": 1,
+      "m12": 15
+    },
+    "visible": true
+  },
+  {
+    "id": "900:690",
+    "depth": 4,
+    "type": "TEXT",
+    "name": "Appointment Now",
+    "text": "Appointment Now",
+    "size": {
+      "x": 132,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:691",
+    "depth": 2,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2758",
+    "text": null,
+    "size": {
+      "x": 355,
+      "y": 65
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:692",
+    "depth": 2,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2759",
+    "text": null,
+    "size": {
+      "x": 355,
+      "y": 65
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 95
+    },
+    "visible": true
+  },
+  {
+    "id": "900:693",
+    "depth": 2,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2760",
+    "text": null,
+    "size": {
+      "x": 740,
+      "y": 130
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 190
+    },
+    "visible": true
+  },
+  {
+    "id": "900:694",
+    "depth": 2,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2761",
+    "text": null,
+    "size": {
+      "x": 355,
+      "y": 65
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 385,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:695",
+    "depth": 2,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 2762",
+    "text": null,
+    "size": {
+      "x": 355,
+      "y": 65
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 385,
+      "m10": 0,
+      "m11": 1,
+      "m12": 95
+    },
+    "visible": true
+  },
+  {
+    "id": "900:696",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Choose a Option",
+    "text": "Choose a Option",
+    "size": {
+      "x": 128,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 405,
+      "m10": 0,
+      "m11": 1,
+      "m12": 112
+    },
+    "visible": true
+  },
+  {
+    "id": "900:697",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Phone Number",
+    "text": "Phone Number",
+    "size": {
+      "x": 114,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 20,
+      "m10": 0,
+      "m11": 1,
+      "m12": 112
+    },
+    "visible": true
+  },
+  {
+    "id": "900:698",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Your Name",
+    "text": "Your Name",
+    "size": {
+      "x": 84,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 20,
+      "m10": 0,
+      "m11": 1,
+      "m12": 17
+    },
+    "visible": true
+  },
+  {
+    "id": "900:699",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Your Email",
+    "text": "Your Email",
+    "size": {
+      "x": 79,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 405,
+      "m10": 0,
+      "m11": 1,
+      "m12": 17
+    },
+    "visible": true
+  },
+  {
+    "id": "900:700",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Message here..",
+    "text": "Message here..",
+    "size": {
+      "x": 112,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 20,
+      "m10": 0,
+      "m11": 1,
+      "m12": 207
+    },
+    "visible": true
+  },
+  {
+    "id": "900:701",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "angle-down",
+    "text": "angle-down",
+    "size": {
+      "x": 14,
+      "y": 16
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 699,
+      "m10": 0,
+      "m11": 1,
+      "m12": 119
+    },
+    "visible": true
+  },
+  {
+    "id": "900:702",
+    "depth": 1,
+    "type": "FRAME",
+    "name": "Title",
+    "text": null,
+    "size": {
+      "x": 539,
+      "y": 261
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 300,
+      "m10": 0,
+      "m11": 1,
+      "m12": 668
+    },
+    "visible": true
+  },
+  {
+    "id": "900:703",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Have a question, an opportunity, or something in mind? Feel free to reach out. I'm always open to new conversations and collaborations",
+    "text": "Have a question, an opportunity, or something in mind? Feel free to reach out. I'm always open to new conversations and collaborations",
+    "size": {
+      "x": 410,
+      "y": 90
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 171
+    },
+    "visible": true
+  },
+  {
+    "id": "900:704",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "Title",
+    "text": null,
+    "size": {
+      "x": 539,
+      "y": 150
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:705",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "Let's Talk About What's Next.",
+    "text": "Let's Talk About\nWhat's Next.",
+    "size": {
+      "x": 539,
+      "y": 120
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 30
+    },
+    "visible": true
+  },
+  {
+    "id": "900:706",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "( Contact us)",
+    "text": "( Contact us)",
+    "size": {
+      "x": 119,
+      "y": 20
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:707",
+    "depth": 1,
+    "type": "FRAME",
+    "name": "Bradcamp",
+    "text": null,
+    "size": {
+      "x": 1920,
+      "y": 532
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:708",
+    "depth": 2,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "bg",
+    "text": null,
+    "size": {
+      "x": 1920,
+      "y": 532
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:709",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "content",
+    "text": null,
+    "size": {
+      "x": 241,
+      "y": 133
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 839,
+      "m10": 0,
+      "m11": 1,
+      "m12": 246
+    },
+    "visible": true
+  },
+  {
+    "id": "900:710",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "bg",
+    "text": null,
+    "size": {
+      "x": 241,
+      "y": 45
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 88
+    },
+    "visible": true
+  },
+  {
+    "id": "900:711",
+    "depth": 4,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 10441",
+    "text": null,
+    "size": {
+      "x": 241,
+      "y": 45
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:712",
+    "depth": 4,
+    "type": "TEXT",
+    "name": "Home Contact",
+    "text": "Home          Contact",
+    "size": {
+      "x": 161,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 40,
+      "m10": 0,
+      "m11": 1,
+      "m12": 8
+    },
+    "visible": true
+  },
+  {
+    "id": "900:713",
+    "depth": 4,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "next_icon",
+    "text": null,
+    "size": {
+      "x": 12,
+      "y": 12
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 102,
+      "m10": 0,
+      "m11": 1,
+      "m12": 18
+    },
+    "visible": true
+  },
+  {
+    "id": "900:714",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "Contact Us",
+    "text": "Contact Us",
+    "size": {
+      "x": 233,
+      "y": 60
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 4,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:715",
+    "depth": 2,
+    "type": "LINE",
+    "name": "line",
+    "text": null,
+    "size": {
+      "x": 1920,
+      "y": 0
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 92
+    },
+    "visible": true
+  },
+  {
+    "id": "900:716",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "btn",
+    "text": null,
+    "size": {
+      "x": 220,
+      "y": 52
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 1660,
+      "m10": 0,
+      "m11": 1,
+      "m12": 20
+    },
+    "visible": true
+  },
+  {
+    "id": "900:717",
+    "depth": 3,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "Rectangle 7",
+    "text": null,
+    "size": {
+      "x": 170,
+      "y": 50
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 2
+    },
+    "visible": true
+  },
+  {
+    "id": "900:718",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "LET’S HIRE ME",
+    "text": "LET’S HIRE ME",
+    "size": {
+      "x": 110,
+      "y": 20
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 30,
+      "m10": 0,
+      "m11": 1,
+      "m12": 17
+    },
+    "visible": true
+  },
+  {
+    "id": "900:719",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "arrow",
+    "text": null,
+    "size": {
+      "x": 50,
+      "y": 50
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 170,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:720",
+    "depth": 4,
+    "type": "ELLIPSE",
+    "name": "Ellipse 153",
+    "text": null,
+    "size": {
+      "x": 50,
+      "y": 50
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:721",
+    "depth": 4,
+    "type": "FRAME",
+    "name": "fi_6941884",
+    "text": null,
+    "size": {
+      "x": 24,
+      "y": 25
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 2.8374032012834505e-09,
+      "m02": 13,
+      "m10": -2.8374032012834505e-09,
+      "m11": 1,
+      "m12": 12
+    },
+    "visible": true
+  },
+  {
+    "id": "900:722",
+    "depth": 5,
+    "type": "VECTOR",
+    "name": "Vector",
+    "text": null,
+    "size": {
+      "x": 12.020991325378418,
+      "y": 12.52187442779541
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 5.982421875,
+      "m10": 0,
+      "m11": 1,
+      "m12": 6.25
+    },
+    "visible": true
+  },
+  {
+    "id": "900:723",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "Menu",
+    "text": null,
+    "size": {
+      "x": 531.11767578125,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 676,
+      "m10": 0,
+      "m11": 1,
+      "m12": 37
+    },
+    "visible": true
+  },
+  {
+    "id": "900:724",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "HOME",
+    "text": null,
+    "size": {
+      "x": 63.05883026123047,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:725",
+    "depth": 4,
+    "type": "TEXT",
+    "name": "HOME",
+    "text": "HOME",
+    "size": {
+      "x": 43,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:726",
+    "depth": 4,
+    "type": "VECTOR",
+    "name": "Vector",
+    "text": null,
+    "size": {
+      "x": 15.058830261230469,
+      "y": 7.199999809265137
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 48,
+      "m10": 0,
+      "m11": 1,
+      "m12": 4.900000095367432
+    },
+    "visible": true
+  },
+  {
+    "id": "900:727",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "PAGES",
+    "text": null,
+    "size": {
+      "x": 67.05883026123047,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 123.05883026123047,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:728",
+    "depth": 4,
+    "type": "TEXT",
+    "name": "PAGES",
+    "text": "PAGES",
+    "size": {
+      "x": 47,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:729",
+    "depth": 4,
+    "type": "VECTOR",
+    "name": "Vector",
+    "text": null,
+    "size": {
+      "x": 15.058830261230469,
+      "y": 7.199999809265137
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 52,
+      "m10": 0,
+      "m11": 1,
+      "m12": 4.900000095367432
+    },
+    "visible": true
+  },
+  {
+    "id": "900:730",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "ABOUT",
+    "text": null,
+    "size": {
+      "x": 51,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 250.11766052246094,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:731",
+    "depth": 4,
+    "type": "TEXT",
+    "name": "ABOUT",
+    "text": "ABOUT",
+    "size": {
+      "x": 51,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:732",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "BLOG",
+    "text": "BLOG",
+    "size": {
+      "x": 40,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 361.11767578125,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:733",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "CONTACT",
+    "text": "CONTACT",
+    "size": {
+      "x": 70,
+      "y": 17
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 461.11767578125,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:734",
+    "depth": 1,
+    "type": "FRAME",
+    "name": "Footer",
+    "text": null,
+    "size": {
+      "x": 2710,
+      "y": 795
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": -370,
+      "m10": 0,
+      "m11": 1,
+      "m12": 1598
+    },
+    "visible": true
+  },
+  {
+    "id": "900:735",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "Bg",
+    "text": null,
+    "size": {
+      "x": 2710,
+      "y": 795
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:736",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "Blur",
+    "text": null,
+    "size": {
+      "x": 2710,
+      "y": 795
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:737",
+    "depth": 4,
+    "type": "ELLIPSE",
+    "name": "blur_2",
+    "text": null,
+    "size": {
+      "x": 670,
+      "y": 670
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 2040,
+      "m10": 0,
+      "m11": 1,
+      "m12": 125
+    },
+    "visible": true
+  },
+  {
+    "id": "900:738",
+    "depth": 4,
+    "type": "ELLIPSE",
+    "name": "blur_2",
+    "text": null,
+    "size": {
+      "x": 670,
+      "y": 670
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 125
+    },
+    "visible": true
+  },
+  {
+    "id": "900:739",
+    "depth": 4,
+    "type": "ROUNDED_RECTANGLE",
+    "name": "shape",
+    "text": null,
+    "size": {
+      "x": 745,
+      "y": 492
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:740",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "line",
+    "text": null,
+    "size": {
+      "x": 383.7389831542969,
+      "y": 339.6066589355469
+    },
+    "transform": {
+      "m00": -1,
+      "m01": 0,
+      "m02": 2404.73828125,
+      "m10": 0,
+      "m11": 1,
+      "m12": 217.99900817871094
+    },
+    "visible": true
+  },
+  {
+    "id": "900:741",
+    "depth": 4,
+    "type": "ELLIPSE",
+    "name": "Ellipse 5",
+    "text": null,
+    "size": {
+      "x": 161.48008728027344,
+      "y": 335.837646484375
+    },
+    "transform": {
+      "m00": 0.5589090585708618,
+      "m01": 0.8292289972305298,
+      "m02": 15,
+      "m10": -0.8292289972305298,
+      "m11": 0.5589090585708618,
+      "m12": 133.90399169921875
+    },
+    "visible": true
+  },
+  {
+    "id": "900:742",
+    "depth": 4,
+    "type": "ELLIPSE",
+    "name": "Ellipse 6",
+    "text": null,
+    "size": {
+      "x": 161.48008728027344,
+      "y": 335.837646484375
+    },
+    "transform": {
+      "m00": 0.5589090585708618,
+      "m01": 0.8292289972305298,
+      "m02": 0,
+      "m10": -0.8292289972305298,
+      "m11": 0.5589090585708618,
+      "m12": 151.90399169921875
+    },
+    "visible": true
+  },
+  {
+    "id": "900:743",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "Bottom",
+    "text": null,
+    "size": {
+      "x": 1325,
+      "y": 160
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 670,
+      "m10": 0,
+      "m11": 1,
+      "m12": 488
+    },
+    "visible": true
+  },
+  {
+    "id": "900:744",
+    "depth": 3,
+    "type": "LINE",
+    "name": "Line 8",
+    "text": null,
+    "size": {
+      "x": 1320,
+      "y": 0
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:745",
+    "depth": 3,
+    "type": "LINE",
+    "name": "Line 9",
+    "text": null,
+    "size": {
+      "x": 1320,
+      "y": 0
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 70
+    },
+    "visible": true
+  },
+  {
+    "id": "900:746",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "LinkedIn",
+    "text": "LinkedIn                      ",
+    "size": {
+      "x": 66,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 20
+    },
+    "visible": true
+  },
+  {
+    "id": "900:747",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "raihanrifaldiii@gmail.com",
+    "text": "raihanrifaldiii@gmail.com",
+    "size": {
+      "x": 193,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 1132,
+      "m10": 0,
+      "m11": 1,
+      "m12": 20
+    },
+    "visible": true
+  },
+  {
+    "id": "900:748",
+    "depth": 3,
+    "type": "TEXT",
+    "name": "© 2025  Portivio | All Rights Reserved | DesignCurved",
+    "text": "© 2025  Portivio | All Rights Reserved | DesignCurved",
+    "size": {
+      "x": 391,
+      "y": 30
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 485,
+      "m10": 0,
+      "m11": 1,
+      "m12": 130
+    },
+    "visible": true
+  },
+  {
+    "id": "900:749",
+    "depth": 2,
+    "type": "FRAME",
+    "name": "Button",
+    "text": null,
+    "size": {
+      "x": 170,
+      "y": 170
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 1820,
+      "m10": 0,
+      "m11": 1,
+      "m12": 159
+    },
+    "visible": true
+  },
+  {
+    "id": "900:750",
+    "depth": 3,
+    "type": "ELLIPSE",
+    "name": "Circle",
+    "text": null,
+    "size": {
+      "x": 170,
+      "y": 170
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:751",
+    "depth": 3,
+    "type": "FRAME",
+    "name": "Learn More",
+    "text": null,
+    "size": {
+      "x": 106,
+      "y": 46
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 37,
+      "m10": 0,
+      "m11": 1,
+      "m12": 62
+    },
+    "visible": true
+  },
+  {
+    "id": "900:752",
+    "depth": 4,
+    "type": "FRAME",
+    "name": "Next Arrow",
+    "text": null,
+    "size": {
+      "x": 16.48011016845703,
+      "y": 15.450104713439941
+    },
+    "transform": {
+      "m00": 0.7589596509933472,
+      "m01": 0.65113765001297,
+      "m02": 66,
+      "m10": -0.65113765001297,
+      "m11": 0.7589596509933472,
+      "m12": 13.73046875
+    },
+    "visible": true
+  },
+  {
+    "id": "900:753",
+    "depth": 5,
+    "type": "VECTOR",
+    "name": "Vector",
+    "text": null,
+    "size": {
+      "x": 16.48011016845703,
+      "y": 15.345226287841797
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:754",
+    "depth": 4,
+    "type": "TEXT",
+    "name": "Hire Me For Your Team!",
+    "text": "Hire Me\nFor Your Team! ",
+    "size": {
+      "x": 106,
+      "y": 46
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  },
+  {
+    "id": "900:755",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Like what you see? Let’s get started!",
+    "text": "Like what you see? Let’s get started!",
+    "size": {
+      "x": 923,
+      "y": 228
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 670,
+      "m10": 0,
+      "m11": 1,
+      "m12": 130
+    },
+    "visible": true
+  },
+  {
+    "id": "900:756",
+    "depth": 1,
+    "type": "FRAME",
+    "name": "Logo",
+    "text": null,
+    "size": {
+      "x": 67,
+      "y": 25
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 76,
+      "m10": 0,
+      "m11": 1,
+      "m12": 34
+    },
+    "visible": true
+  },
+  {
+    "id": "900:757",
+    "depth": 2,
+    "type": "TEXT",
+    "name": "Han",
+    "text": "Han",
+    "size": {
+      "x": 67,
+      "y": 25
+    },
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "visible": true
+  }
+]

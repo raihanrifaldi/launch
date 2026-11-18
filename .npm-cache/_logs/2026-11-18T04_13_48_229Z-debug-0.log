@@ -1,0 +1,97 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.5.2
+2 info using node@v20.13.1
+3 timing npm:load:whichnode Completed in 3ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc Completed in 2ms
+6 timing config:load:builtin Completed in 2ms
+7 timing config:load:cli Completed in 4ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:C:\Users\raiha\Downloads\Launch\portfolio\.npmrc Completed in 0ms
+10 timing config:load:project Completed in 3ms
+11 timing config:load:file:C:\Users\raiha\.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:C:\Users\raiha\AppData\Roaming\npm\etc\npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 15ms
+17 timing npm:load:configload Completed in 15ms
+18 timing config:load:flatten Completed in 3ms
+19 timing npm:load:mkdirpcache Completed in 0ms
+20 timing npm:load:mkdirplogs Completed in 1ms
+21 verbose title npm install @axe-core/playwright@4.10.2 prettier
+22 verbose argv "install" "--no-audit" "--no-fund" "--cache" "C:\\Users\\raiha\\Downloads\\Launch\\.npm-cache" "--save-dev" "@axe-core/playwright@4.10.2" "prettier"
+23 timing npm:load:setTitle Completed in 1ms
+24 timing npm:load:display Completed in 1ms
+25 verbose logfile logs-max:10 dir:C:\Users\raiha\Downloads\Launch\.npm-cache\_logs\2026-11-18T04_13_48_229Z-
+26 verbose logfile C:\Users\raiha\Downloads\Launch\.npm-cache\_logs\2026-11-18T04_13_48_229Z-debug-0.log
+27 timing npm:load:logFile Completed in 3ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 65ms
+31 timing arborist:ctor Completed in 1ms
+32 silly logfile done cleaning log files
+33 timing idealTree:init Completed in 14ms
+34 timing idealTree:userRequests Completed in 2ms
+35 silly idealTree buildDeps
+36 silly fetch manifest @axe-core/playwright@4.10.2
+37 timing arborist:ctor Completed in 1ms
+38 http fetch GET 200 https://registry.npmjs.org/@axe-core%2fplaywright 21ms (cache hit)
+39 silly fetch manifest playwright-core@>= 1.0.0
+40 http fetch GET 200 https://registry.npmjs.org/playwright-core 33ms (cache hit)
+41 silly fetch manifest prettier@*
+42 http fetch GET 200 https://registry.npmjs.org/prettier 182ms (cache miss)
+43 silly placeDep ROOT @axe-core/playwright@4.10.2 REPLACE for:  want: 4.10.2
+44 silly placeDep ROOT prettier@3.10.1 OK for:  want: *
+45 silly fetch manifest axe-core@~4.10.3
+46 http fetch GET 200 https://registry.npmjs.org/axe-core 28ms (cache hit)
+47 timing idealTree:#root Completed in 511ms
+48 silly placeDep ROOT axe-core@4.10.3 OK for: @axe-core/playwright@4.10.2 want: ~4.10.3
+49 timing idealTree:node_modules/@axe-core/playwright Completed in 4ms
+50 timing idealTree:node_modules/axe-core Completed in 0ms
+51 timing idealTree:node_modules/prettier Completed in 0ms
+52 timing idealTree:buildDeps Completed in 516ms
+53 timing idealTree:fixDepFlags Completed in 0ms
+54 timing idealTree Completed in 533ms
+55 timing reify:loadTrees Completed in 534ms
+56 timing reify:diffTrees Completed in 3ms
+57 silly reify mark retired [
+57 silly reify   'C:\\Users\\raiha\\Downloads\\Launch\\portfolio\\node_modules\\@axe-core\\playwright'
+57 silly reify ]
+58 silly reify mark retired [
+58 silly reify   'C:\\Users\\raiha\\Downloads\\Launch\\portfolio\\node_modules\\axe-core'
+58 silly reify ]
+59 silly reify moves {
+59 silly reify   'C:\\Users\\raiha\\Downloads\\Launch\\portfolio\\node_modules\\@axe-core\\playwright': 'C:\\Users\\raiha\\Downloads\\Launch\\portfolio\\node_modules\\@axe-core\\.playwright-iMGeb7DY',
+59 silly reify   'C:\\Users\\raiha\\Downloads\\Launch\\portfolio\\node_modules\\axe-core': 'C:\\Users\\raiha\\Downloads\\Launch\\portfolio\\node_modules\\.axe-core-YyQXd7oW'
+59 silly reify }
+60 timing reify:retireShallow Completed in 7ms
+61 timing reify:createSparse Completed in 1ms
+62 timing reify:loadBundles Completed in 0ms
+63 silly tarball no local data for @axe-core/playwright@https://registry.npmjs.org/@axe-core/playwright/-/playwright-4.10.2.tgz. Extracting by manifest.
+64 silly tarball no local data for axe-core@https://registry.npmjs.org/axe-core/-/axe-core-4.10.3.tgz. Extracting by manifest.
+65 silly tarball no local data for prettier@https://registry.npmjs.org/prettier/-/prettier-3.10.1.tgz. Extracting by manifest.
+66 http fetch GET 200 https://registry.npmjs.org/axe-core/-/axe-core-4.10.3.tgz 213ms (cache miss)
+67 timing reifyNode:node_modules/axe-core Completed in 223ms
+68 http fetch GET 200 https://registry.npmjs.org/@axe-core/playwright/-/playwright-4.10.2.tgz 262ms (cache miss)
+69 timing reifyNode:node_modules/@axe-core/playwright Completed in 270ms
+70 http fetch GET 200 https://registry.npmjs.org/prettier/-/prettier-3.10.1.tgz 466ms (cache miss)
+71 timing reifyNode:node_modules/prettier Completed in 477ms
+72 timing reify:unpack Completed in 477ms
+73 timing reify:unretire Completed in 0ms
+74 timing build:queue Completed in 0ms
+75 timing build:link:node_modules/prettier Completed in 4ms
+76 timing build:link Completed in 5ms
+77 timing build:deps Completed in 6ms
+78 timing build Completed in 6ms
+79 timing reify:build Completed in 6ms
+80 timing reify:trash Completed in 5ms
+81 timing reify:save Completed in 7ms
+82 timing reify Completed in 1048ms
+83 silly ADD node_modules/prettier
+84 silly CHANGE node_modules/axe-core
+85 silly CHANGE node_modules/@axe-core/playwright
+86 timing command:install Completed in 1053ms
+87 verbose exit 0
+88 timing npm Completed in 1787ms
+89 info ok

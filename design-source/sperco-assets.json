@@ -1,0 +1,170 @@
+[
+  {
+    "slot": "role",
+    "node": "900:1073",
+    "hash": "f61eaafcd1960110fb5bcfb23d8b35e4eb72b09e",
+    "existing": "mystery-role.png",
+    "width": 122,
+    "height": 122,
+    "bytes": 5296,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "local": "mystery-role.png"
+  },
+  {
+    "slot": "date",
+    "node": "900:1078",
+    "hash": "a31d6a3f8ac0a4e1a0da988c436d651f393d98e3",
+    "existing": "mystery-date.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 11240,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "local": "mystery-date.png"
+  },
+  {
+    "slot": "category",
+    "node": "900:1083",
+    "hash": "70c44c7397125cfcedf23ad6327a4aa87ba3f4be",
+    "existing": "mystery-category.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 8855,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "local": "mystery-category.png"
+  },
+  {
+    "slot": "company",
+    "node": "900:1088",
+    "hash": "6cc9468a9da3268e7792861c37ddd54767cafb85",
+    "existing": "mystery-company.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 10496,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "local": "mystery-company.png"
+  },
+  {
+    "slot": "next",
+    "node": "900:1139",
+    "hash": "1b52e5fcbdd34b06bbc415cccb809c4167b43f72",
+    "existing": "mystery-next.png",
+    "width": 512,
+    "height": 512,
+    "bytes": 8897,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "local": "mystery-next.png"
+  },
+  {
+    "slot": "banner",
+    "node": "900:1141",
+    "hash": "b210601fa3c3ba804710c5821321e9c5e8bfc60b",
+    "existing": "mystery-banner.jpg",
+    "width": 1920,
+    "height": 1280,
+    "bytes": 121348,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 0.4156250059604645,
+      "m12": 0.29218751192092896
+    },
+    "local": "mystery-banner.jpg"
+  },
+  {
+    "slot": "milestone",
+    "node": "900:1206",
+    "hash": "b68b6e9760ee72bbf05fe5241ac172461a77c889",
+    "existing": null,
+    "width": 3024,
+    "height": 4032,
+    "bytes": 3338750,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0.07183485478162766,
+      "m10": 0,
+      "m11": 0.8303571343421936,
+      "m12": 0.16893020272254944
+    },
+    "local": "sperco-milestone.jpg",
+    "encodedWidth": 4032,
+    "encodedHeight": 3024
+  },
+  {
+    "slot": "team",
+    "node": "900:1211",
+    "hash": "fa6365a2eca87ec8f6a9eb74b517c542f7741d54",
+    "existing": null,
+    "width": 3024,
+    "height": 4032,
+    "bytes": 2936678,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "local": "sperco-team.jpg",
+    "encodedWidth": 4032,
+    "encodedHeight": 3024
+  },
+  {
+    "slot": "server",
+    "node": "900:1216",
+    "hash": "5c1e01baa2751395bbdb558f26049706464378b5",
+    "existing": null,
+    "width": 3024,
+    "height": 4032,
+    "bytes": 3806782,
+    "transform": {
+      "m00": 1,
+      "m01": 0,
+      "m02": 0,
+      "m10": 0,
+      "m11": 1,
+      "m12": 0
+    },
+    "local": "sperco-server.jpg",
+    "encodedWidth": 4032,
+    "encodedHeight": 3024
+  }
+]
