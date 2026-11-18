@@ -345,6 +345,83 @@ strong {
   line-height: 25px;
   color: #666;
 }
+.quote-deck {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  isolation: isolate;
+}
+.quote-deck > .quote {
+  grid-area: 2 / 1;
+  margin: 0;
+  align-items: center;
+  border-radius: 8px;
+  transform-origin: center;
+  transition: transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
+}
+.quote-deck blockquote {
+  display: inline;
+}
+.quote-deck figcaption {
+  display: inline;
+  margin: 0 0 0 10px;
+  white-space: nowrap;
+}
+.quote[data-slot="top"] {
+  z-index: 1;
+  transform: translateY(calc(-100% - 16px)) scale(0.88);
+}
+.quote[data-slot="active"] {
+  z-index: 3;
+  transform: translateY(0) scale(1);
+  box-shadow: 0 16px 36px #0003;
+}
+.quote[data-slot="bottom"] {
+  z-index: 1;
+  transform: translateY(calc(100% + 16px)) scale(0.88);
+}
+.quote-deck.is-rotating > .quote[data-slot="bottom"] {
+  animation: quote-wrap 650ms ease both;
+}
+@keyframes quote-wrap {
+  0% {
+    transform: translateY(calc(-100% - 16px)) scale(0.88);
+    opacity: 1;
+  }
+  35% {
+    transform: translateY(calc(-100% - 16px)) scale(0.8);
+    opacity: 0;
+  }
+  36% {
+    transform: translateY(calc(100% + 16px)) scale(0.8);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(calc(100% + 16px)) scale(0.88);
+    opacity: 1;
+  }
+}
+.quote-pause {
+  display: block;
+  min-width: 64px;
+  min-height: 44px;
+  margin: 8px auto 0;
+  padding: 8px 16px;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  font-size: 12px;
+}
+.quote-pause[hidden] {
+  display: none;
+}
+.quote-pause:hover {
+  border-color: var(--lime);
+  color: var(--lime);
+}
+.quote-pause[aria-pressed="true"] {
+  border-color: var(--lime);
+}
 .hero-copy {
   position: relative;
   z-index: 2;
@@ -1306,10 +1383,16 @@ strong {
     max-width: none;
     margin-left: -11.36%;
   }
+  .quote-carousel {
+    margin-top: calc(-85 * var(--u));
+  }
   .quote {
     margin-top: calc(20 * var(--u));
     gap: calc(21 * var(--u));
     padding: calc(40 * var(--u));
+  }
+  .quote-deck > .quote {
+    padding: calc(32 * var(--u));
   }
   .quote-icon {
     flex-basis: calc(70 * var(--u));
