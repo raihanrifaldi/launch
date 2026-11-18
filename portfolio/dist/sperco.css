@@ -1,0 +1,140 @@
+.sperco-cover {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-width: 0;
+  min-height: 330px;
+  padding: clamp(28px, 5.2vw, 100px);
+  border-radius: 8px;
+  background: #000;
+}
+.sperco-cover-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp(14px, 1.25vw, 24px);
+  width: 100%;
+  min-width: 0;
+}
+.sperco-cover .sperco-cover-title {
+  color: var(--text);
+  font: 700 clamp(48px, 4.48vw, 86px)/1.15 var(--heading);
+}
+.sperco-cover .sperco-cover-subtitle {
+  color: var(--text);
+  font: 700 clamp(22px, 2.08vw, 40px)/1.35 var(--heading);
+}
+.sperco-waveform {
+  width: 93%;
+  max-width: 1040px;
+  height: auto;
+}
+.sperco-cover .sperco-cover-caption {
+  color: var(--muted);
+  font-size: clamp(12px, 1.2vw, 23px);
+  line-height: 1.5;
+}
+.sperco-page .sperco-category {
+  margin-bottom: 8px;
+  color: var(--lime);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.sperco-page .mystery-overview > p strong {
+  color: var(--text);
+}
+.sperco-contributions {
+  margin-top: 28px;
+}
+.sperco-contributions h3 {
+  font-size: clamp(25px, 2vw, 32px);
+  line-height: 1.4;
+}
+.sperco-contributions .mystery-contributions {
+  margin-top: 18px;
+}
+.sperco-contributions .mystery-contributions strong {
+  font-weight: 700;
+}
+.sperco-solution-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.34fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 36px;
+}
+.sperco-cover--compact {
+  min-height: 0;
+  aspect-ratio: 530/228;
+  padding: 26px;
+}
+.sperco-cover--compact .sperco-cover-inner {
+  gap: 10px;
+}
+.sperco-cover--compact .sperco-cover-title {
+  font-size: clamp(28px, 2.07vw, 40px);
+}
+.sperco-cover--compact .sperco-cover-subtitle {
+  font-size: clamp(14px, 0.96vw, 18.5px);
+}
+.sperco-cover--compact .sperco-waveform {
+  width: 100%;
+  max-width: 481.014px;
+}
+.sperco-cover--compact .sperco-cover-caption {
+  font-size: 11px;
+}
+.sperco-milestone-crop {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 420/465;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #000;
+}
+.sperco-milestone-crop img {
+  position: absolute;
+  left: -7.18%;
+  top: -20.34%;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 959px) {
+  .sperco-solution-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .sperco-cover--compact {
+    max-width: 530px;
+    min-height: 228px;
+  }
+}
+@media (max-width: 719px) {
+  .sperco-cover {
+    min-height: 300px;
+    padding: 28px;
+  }
+  .sperco-cover .sperco-cover-title {
+    font-size: 48px;
+  }
+  .sperco-cover .sperco-cover-subtitle {
+    font-size: 22px;
+  }
+  .sperco-cover .sperco-cover-caption {
+    font-size: 12px;
+  }
+  .sperco-cover--compact {
+    min-height: 220px;
+    padding: 22px;
+  }
+  .sperco-cover--compact .sperco-cover-title {
+    font-size: 34px;
+  }
+  .sperco-cover--compact .sperco-cover-subtitle {
+    font-size: 18px;
+  }
+  .sperco-cover--compact .sperco-cover-caption {
+    font-size: 11px;
+  }
+}

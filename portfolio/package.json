@@ -1,0 +1,13 @@
+{
+  "name": "raihan-rifaldi-portfolio",
+  "private": true,
+  "scripts": {
+    "dev": "python -m http.server 4173 --bind 127.0.0.1 --directory dist",
+    "test": "node --preserve-symlinks --preserve-symlinks-main scripts/check.cjs"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.10.2",
+    "playwright": "^1.65.1",
+    "prettier": "^3.10.1"
+  }
+}

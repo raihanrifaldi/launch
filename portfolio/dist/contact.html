@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0e0e0e" />
+    <meta
+      name="description"
+      content="Contact Raihan Rifaldi for opportunities, project collaborations and questions. Based in Jakarta Barat, Indonesia."
+    />
+    <title>Contact | Raihan Rifaldi</title>
+    <link rel="icon" href="assets/imgImage151.png" type="image/png" />
+    <link
+      rel="preload"
+      href="assets/jost-400.ttf"
+      as="font"
+      type="font/ttf"
+      crossorigin
+    />
+    <link rel="stylesheet" href="fonts.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mystery.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <script src="app.js" defer></script>
+    <script src="contact.js" defer></script>
+  </head>
+  <body class="contact-page">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="index.html#home" aria-label="Han, home">Han</a>
+      <button
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="main-nav"
+      >
+        Menu <span aria-hidden="true">☰</span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#experience">Experience</a>
+        <a href="index.html#about">About</a>
+        <a href="index.html#organizations">Organization</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+      <a
+        class="split-button header-contact"
+        href="https://www.linkedin.com/in/raihanrifaldi/"
+        target="_blank"
+        rel="noopener noreferrer"
+        ><span>Let’s connect</span
+        ><img src="assets/imgArrow.svg" width="50" height="50" alt=""
+      /></a>
+    </header>
+    <main id="main">
+      <section class="mystery-banner" aria-labelledby="contact-page-heading">
+        <h1 id="contact-page-heading">Contact Us</h1>
+        <nav class="mystery-breadcrumb" aria-label="Breadcrumb">
+          <a href="index.html">Home</a
+          ><img
+            src="assets/mystery-next.png"
+            width="12"
+            height="12"
+            alt=""
+          /><span aria-current="page">Contact</span>
+        </nav>
+      </section>
+      <section
+        class="container contact-page-content"
+        aria-labelledby="contact-intro-heading"
+      >
+        <div class="contact-enquiry-layout">
+          <div class="contact-intro">
+            <p class="contact-eyebrow">( Contact us )</p>
+            <h2 id="contact-intro-heading">
+              Let's Talk About<br />What's Next.
+            </h2>
+            <p class="contact-intro-copy">
+              Have a question, an opportunity, or something in mind? Feel free
+              to reach out. I'm always open to new conversations and
+              collaborations.
+            </p>
+          </div>
+          <form
+            class="contact-form"
+            id="contact-form"
+            aria-label="Contact Raihan"
+            action="mailto:raihanrifaldiii@gmail.com"
+            method="post"
+            enctype="text/plain"
+            tabindex="-1"
+          >
+            <div class="contact-field">
+              <input
+                id="contact-name"
+                name="name"
+                type="text"
+                autocomplete="name"
+                maxlength="100"
+                placeholder=" "
+                required
+              />
+              <label for="contact-name"
+                >Your Name <span aria-hidden="true">*</span></label
+              >
+            </div>
+            <div class="contact-field">
+              <input
+                id="contact-email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                maxlength="254"
+                placeholder=" "
+                required
+              />
+              <label for="contact-email"
+                >Your Email <span aria-hidden="true">*</span></label
+              >
+            </div>
+            <div class="contact-field">
+              <input
+                id="contact-phone"
+                name="phone"
+                type="tel"
+                autocomplete="tel"
+                maxlength="40"
+                placeholder=" "
+              />
+              <label for="contact-phone"
+                >Phone Number <small>(optional)</small></label
+              >
+            </div>
+            <div class="contact-field contact-select">
+              <select id="contact-topic" name="topic" required>
+                <option value="" disabled selected></option>
+                <option value="Job opportunity">Job opportunity</option>
+                <option value="Project collaboration">
+                  Project collaboration
+                </option>
+                <option value="General question">General question</option>
+              </select>
+              <label for="contact-topic"
+                >Choose an Option <span aria-hidden="true">*</span></label
+              >
+            </div>
+            <div class="contact-field contact-message-field">
+              <textarea
+                id="contact-message"
+                name="message"
+                rows="3"
+                maxlength="3000"
+                placeholder=" "
+                required
+              ></textarea>
+              <label for="contact-message"
+                >Message here <span aria-hidden="true">*</span></label
+              >
+            </div>
+            <div class="contact-form-actions">
+              <button
+                class="lime-button contact-submit"
+                type="submit"
+                aria-describedby="contact-delivery-hint"
+              >
+                Appointment Now
+              </button>
+              <p id="contact-delivery-hint">
+                Opens your email app to send your message.
+              </p>
+            </div>
+            <div
+              class="contact-compose-result"
+              id="contact-compose-result"
+              role="status"
+              hidden
+            >
+              <p>
+                Email draft ready. Send it from your email app to complete your
+                enquiry.
+              </p>
+              <a
+                id="contact-email-draft"
+                href="mailto:raihanrifaldiii@gmail.com"
+                >Open email draft <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </form>
+        </div>
+        <div
+          class="contact-methods"
+          role="group"
+          aria-label="Contact information"
+        >
+          <section
+            class="contact-method"
+            aria-labelledby="contact-address-heading"
+          >
+            <div class="contact-method-icon" aria-hidden="true">
+              <img
+                src="assets/contact-location.svg"
+                width="23"
+                height="30"
+                alt=""
+              />
+            </div>
+            <h3 id="contact-address-heading">Address</h3>
+            <address>Jakarta Barat, Indonesia</address>
+          </section>
+          <section
+            class="contact-method"
+            aria-labelledby="contact-email-heading"
+          >
+            <div class="contact-method-icon" aria-hidden="true">
+              <img
+                src="assets/contact-email.svg"
+                width="30"
+                height="30"
+                alt=""
+              />
+            </div>
+            <h3 id="contact-email-heading">E-mail</h3>
+            <a href="mailto:raihanrifaldiii@gmail.com"
+              >raihanrifaldiii@gmail.com</a
+            >
+          </section>
+          <section
+            class="contact-method"
+            aria-labelledby="contact-call-heading"
+          >
+            <div class="contact-method-icon" aria-hidden="true">
+              <img
+                src="assets/contact-phone.svg"
+                width="30"
+                height="30"
+                alt=""
+              />
+            </div>
+            <h3 id="contact-call-heading">Call us</h3>
+            <a href="tel:+6285196131320">0851 9613 1320</a>
+          </section>
+        </div>
+      </section>
+      <section class="contact" id="contact" aria-labelledby="contact-heading">
+        <div class="footer-atmosphere" aria-hidden="true">
+          <img src="assets/imgBlur.svg" width="3110" height="1070" alt="" /><img
+            class="footer-line"
+            src="assets/imgLine.svg"
+            width="384"
+            height="340"
+            alt=""
+          />
+        </div>
+        <div class="container contact-content">
+          <h2 id="contact-heading">
+            Like what you see?<br />Let’s get started!
+          </h2>
+          <a
+            class="hire-circle"
+            href="https://www.linkedin.com/in/raihanrifaldi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            ><img
+              class="hire-circle-outline"
+              src="assets/imgCircle.svg"
+              width="170"
+              height="170"
+              alt=""
+            /><span
+              >Hire Me
+              <img
+                src="assets/imgNextArrow.svg"
+                width="24"
+                height="24"
+                alt=""
+              /><br />For Your Team!</span
+            ></a
+          >
+        </div>
+        <footer class="container">
+          <div class="footer-links">
+            <a
+              href="https://www.linkedin.com/in/raihanrifaldi/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn <span aria-hidden="true">↗</span></a
+            ><a href="mailto:raihanrifaldiii@gmail.com"
+              >raihanrifaldiii@gmail.com</a
+            >
+          </div>
+          <p class="copyright">
+            © 2025 Portivio | All Rights Reserved | <span>DesignCurved</span>
+          </p>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>

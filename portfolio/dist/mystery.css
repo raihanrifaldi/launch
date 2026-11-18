@@ -1,0 +1,366 @@
+.mystery-banner {
+  display: grid;
+  align-content: center;
+  justify-items: center;
+  gap: 24px;
+  min-height: clamp(250px, 23vw, 420px);
+  padding: 48px 20px;
+  text-align: center;
+  background:
+    linear-gradient(#0009, #0009),
+    url("assets/mystery-banner.jpg") center / cover;
+}
+.mystery-banner h1 {
+  font-size: clamp(36px, 3.5vw, 60px);
+  line-height: 1.25;
+}
+.mystery-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  min-height: 50px;
+  padding-inline: 20px;
+  border-radius: 5px;
+  background: var(--lime);
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.mystery-breadcrumb a {
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+}
+.mystery-breadcrumb a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+.mystery-breadcrumb a:focus-visible {
+  outline-color: #000;
+  outline-offset: 2px;
+}
+.mystery-content {
+  padding-top: clamp(40px, 5vw, 90px);
+  padding-bottom: 40px;
+}
+.mystery-feature-image {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1320/670;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.mystery-details-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 31.8%);
+  align-items: start;
+  gap: clamp(24px, 3vw, 48px);
+  margin-top: 30px;
+}
+.mystery-overview h2 {
+  margin-bottom: 16px;
+  font-size: clamp(27px, 2.3vw, 36px);
+  line-height: 1.3;
+}
+.mystery-content p,
+.mystery-content li {
+  color: var(--muted);
+  font-size: 16px;
+  line-height: 1.875;
+}
+.mystery-overview > p + p {
+  margin-top: 12px;
+}
+.mystery-contributions {
+  padding: 0;
+  margin: 30px 0 0;
+  list-style: none;
+}
+.mystery-contributions li {
+  padding-left: 24px;
+  background: url("assets/mystery-check.svg") no-repeat 0 8px / 14px 17px;
+}
+.mystery-contributions li + li {
+  margin-top: 14px;
+}
+.mystery-contributions strong {
+  color: #e0e0e0;
+  font-weight: 500;
+}
+.mystery-information {
+  position: relative;
+  margin-top: -90px;
+  border-radius: 8px 0 8px 8px;
+  background: #000;
+  overflow: clip;
+}
+.mystery-information > h2 {
+  padding: 20px 28px;
+  background: var(--lime);
+  color: #000;
+  font-size: 21px;
+  line-height: 1.4;
+}
+.mystery-information dl {
+  margin: 0;
+  padding: 10px 28px 0;
+}
+.mystery-information dl > div {
+  position: relative;
+  padding: 20px 0 20px 46px;
+  border-bottom: 1px solid #ffffff22;
+}
+.mystery-information dl img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+.mystery-information dt {
+  color: var(--muted);
+  font-size: 13px;
+}
+.mystery-information dd {
+  margin: 3px 0 0;
+  font: 600 18px/1.5 var(--heading);
+}
+.mystery-social {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 45px;
+  height: 45px;
+  margin: 22px 28px 28px;
+  border-radius: 50%;
+}
+.mystery-social img:first-child {
+  position: absolute;
+  inset: 0;
+}
+.mystery-social img:last-child {
+  position: relative;
+}
+.mystery-social:hover {
+  transform: translateY(-2px);
+}
+.mystery-assessment-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 40px;
+  align-items: center;
+  margin-top: 44px;
+}
+.mystery-assessment-grid h2,
+.mystery-reporting h2,
+.mystery-moments h2 {
+  margin-bottom: 16px;
+  font-size: clamp(26px, 2vw, 32px);
+  line-height: 1.4;
+}
+.mystery-categories {
+  padding: 28px;
+  border-radius: 10px;
+  background: #111;
+}
+.mystery-categories h2 {
+  font-size: 16px;
+  color: var(--lime);
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+}
+.mystery-categories ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.mystery-categories li {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+}
+.mystery-categories li + li {
+  margin-top: 20px;
+}
+.mystery-category-icon {
+  display: grid;
+  place-items: center;
+  flex: 0 0 36px;
+  height: 36px;
+  border-radius: 7px;
+  background: #deff001a;
+}
+.mystery-categories h3 {
+  font-size: 20px;
+  line-height: 1.4;
+}
+.mystery-categories p {
+  font-size: 14px;
+  line-height: 1.75;
+}
+.mystery-reporting {
+  margin-top: 40px;
+}
+.mystery-project-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 36px;
+}
+.mystery-project-navigation .lime-button {
+  gap: 12px;
+  padding-inline: 22px;
+  min-height: 48px;
+  font-family: var(--body);
+  font-size: 14px;
+  letter-spacing: 0;
+}
+.mystery-prev-icon {
+  transform: rotate(180deg);
+}
+.mystery-moments {
+  padding-top: 64px;
+}
+.mystery-moments-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 28px;
+}
+.mystery-moments-grid > figure > img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 420/465;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.mystery-moments figcaption {
+  margin-top: 16px;
+}
+.mystery-moments figcaption span {
+  display: block;
+  color: var(--muted);
+  font-size: 13px;
+}
+.mystery-moments h3 {
+  margin-top: 4px;
+  font-size: 22px;
+  line-height: 1.4;
+}
+@media (max-width: 1100px) {
+  .mystery-details-grid {
+    grid-template-columns: minmax(0, 1fr) 280px;
+    gap: 28px;
+  }
+  .mystery-information dl {
+    padding-inline: 20px;
+  }
+  .mystery-information > h2 {
+    padding-inline: 20px;
+  }
+  .mystery-social {
+    margin-inline: 20px;
+  }
+}
+@media (max-width: 959px) {
+  .mystery-details-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .mystery-information {
+    margin-top: 0;
+    border-radius: 8px;
+  }
+  .mystery-information dl {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 28px;
+  }
+  .mystery-assessment-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 28px;
+  }
+  .mystery-moments-grid {
+    gap: 20px;
+  }
+  .mystery-moments h3 {
+    font-size: 19px;
+  }
+}
+@media (max-width: 719px) {
+  .mystery-banner {
+    min-height: 240px;
+    gap: 20px;
+    padding: 40px 20px;
+  }
+  .mystery-banner h1 {
+    font-size: 36px;
+  }
+  .mystery-breadcrumb {
+    gap: 20px;
+    font-size: 12px;
+    min-height: 44px;
+    padding-inline: 16px;
+  }
+  .mystery-breadcrumb a {
+    min-height: 44px;
+  }
+  .mystery-content {
+    padding-top: 32px;
+    padding-bottom: 0;
+  }
+  .mystery-feature-image {
+    aspect-ratio: 4/3;
+  }
+  .mystery-details-grid {
+    margin-top: 24px;
+  }
+  .mystery-content p,
+  .mystery-content li {
+    font-size: 14px;
+  }
+  .mystery-overview h2 {
+    font-size: 27px;
+  }
+  .mystery-information dl {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .mystery-information > h2 {
+    font-size: 20px;
+  }
+  .mystery-assessment-grid,
+  .mystery-reporting {
+    margin-top: 32px;
+  }
+  .mystery-categories {
+    padding: 24px;
+  }
+  .mystery-categories h2 {
+    font-size: 15px;
+  }
+  .mystery-project-navigation {
+    gap: 16px;
+    margin-top: 28px;
+  }
+  .mystery-project-navigation .lime-button {
+    gap: 8px;
+    padding-inline: 16px;
+    font-size: 11px;
+    min-height: 44px;
+  }
+  .mystery-moments {
+    padding-top: 44px;
+  }
+  .mystery-moments-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 32px;
+  }
+  .mystery-moments-grid > figure > img {
+    aspect-ratio: 4/3;
+  }
+  .mystery-moments h3 {
+    font-size: 21px;
+  }
+}

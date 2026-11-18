@@ -1,0 +1,21 @@
+.trm-page .trm-category {
+  margin-bottom: 8px;
+  color: var(--lime);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+.trm-page .mystery-overview > p strong {
+  color: var(--text);
+}
+.trm-contributions {
+  margin-top: 28px;
+}
+.trm-contributions h3 {
+  font-size: clamp(25px, 2vw, 32px);
+  line-height: 1.4;
+}
+.trm-contributions .mystery-contributions {
+  margin-top: 18px;
+}
