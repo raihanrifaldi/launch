@@ -99,7 +99,7 @@ if (quoteCarousel) {
       cards.forEach((card) => {
         card.dataset.slot = next[card.dataset.slot];
       });
-    }, 3000);
+    }, 4000);
   }
 
   pause.addEventListener("click", () => {

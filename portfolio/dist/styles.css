@@ -351,6 +351,8 @@ strong {
   grid-template-rows: repeat(3, 1fr);
   gap: 16px;
   isolation: isolate;
+  overflow: clip;
+  overflow-clip-margin: 12px;
 }
 .quote-deck > .quote {
   grid-area: 2 / 1;
@@ -358,7 +360,7 @@ strong {
   align-items: center;
   border-radius: 8px;
   transform-origin: center;
-  transition: transform 650ms cubic-bezier(0.22, 1, 0.36, 1);
+  transition: transform 1100ms cubic-bezier(0.22, 0.75, 0.25, 1);
 }
 .quote-deck blockquote {
   display: inline;
@@ -370,7 +372,7 @@ strong {
 }
 .quote[data-slot="top"] {
   z-index: 1;
-  transform: translateY(calc(-100% - 16px)) scale(0.88);
+  transform: translateY(calc(-100% - 16px)) scale(0.76);
 }
 .quote[data-slot="active"] {
   z-index: 3;
@@ -379,26 +381,40 @@ strong {
 }
 .quote[data-slot="bottom"] {
   z-index: 1;
-  transform: translateY(calc(100% + 16px)) scale(0.88);
+  transform: translateY(calc(100% + 16px)) scale(0.76);
+}
+.quote-deck.is-rotating > .quote[data-slot="active"] {
+  animation: quote-arrive 1100ms cubic-bezier(0.22, 0.75, 0.25, 1) both;
 }
 .quote-deck.is-rotating > .quote[data-slot="bottom"] {
-  animation: quote-wrap 650ms ease both;
+  animation: quote-wrap 1100ms cubic-bezier(0.22, 0.75, 0.25, 1) both;
+}
+@keyframes quote-arrive {
+  0% {
+    transform: translateY(calc(100% + 16px)) scale(0.76);
+  }
+  72% {
+    transform: translateY(-4px) scale(1.035);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
 }
 @keyframes quote-wrap {
   0% {
-    transform: translateY(calc(-100% - 16px)) scale(0.88);
+    transform: translateY(calc(-100% - 16px)) scale(0.76);
     opacity: 1;
   }
-  35% {
-    transform: translateY(calc(-100% - 16px)) scale(0.8);
+  42% {
+    transform: translateY(calc(-160% - 16px)) scale(0.68);
     opacity: 0;
   }
-  36% {
-    transform: translateY(calc(100% + 16px)) scale(0.8);
+  43% {
+    transform: translateY(calc(160% + 16px)) scale(0.68);
     opacity: 0;
   }
   100% {
-    transform: translateY(calc(100% + 16px)) scale(0.88);
+    transform: translateY(calc(100% + 16px)) scale(0.76);
     opacity: 1;
   }
 }
