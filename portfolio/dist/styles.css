@@ -244,11 +244,16 @@ strong {
   position: relative;
   padding-top: 30px;
 }
+.hero-heading-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
 .hero h1 {
   position: relative;
   z-index: 2;
-  max-width: calc(100% - 32px);
-  font-size: clamp(38px, 8.9vw, 62px);
+  min-width: 0;
+  font-size: clamp(35px, 8.9vw, 62px);
   font-weight: 400;
   line-height: 1.2;
 }
@@ -262,29 +267,13 @@ strong {
 }
 .hero-visual {
   position: relative;
-  width: min(80%, 360px);
-  margin-inline: auto;
-  transform: translateX(-4%);
-}
-.portrait-cutout {
-  position: relative;
-  aspect-ratio: 564/700;
-  overflow: hidden;
-}
-.portrait {
-  position: absolute;
-  inset: -6.78% 0 auto;
   width: 100%;
-  height: 113.56%;
-  max-width: none;
-  object-fit: fill;
+  max-width: 460px;
 }
 .experience-badge {
-  position: absolute;
+  position: relative;
   z-index: 3;
-  left: 78%;
-  top: 29%;
-  width: 36%;
+  flex: 0 0 80px;
   aspect-ratio: 160/122;
 }
 .experience-badge > img {
@@ -323,9 +312,7 @@ strong {
   display: flex;
   align-items: flex-start;
   gap: 16px;
-  width: 108%;
-  margin-top: -24%;
-  margin-left: -4%;
+  width: 100%;
   padding: 20px;
   border-radius: 10px;
   background: #fff;
@@ -413,8 +400,8 @@ strong {
 .hero-star {
   position: absolute;
   right: 4%;
-  top: 18px;
-  width: 35px;
+  top: 4px;
+  width: 24px;
   height: auto;
 }
 .hero-flourish {
@@ -1006,23 +993,22 @@ strong {
     line-height: 1.45;
     white-space: nowrap;
   }
+  .hero-heading-row {
+    gap: 24px;
+  }
   .hero-grid {
     grid-template-columns: minmax(0, 46fr) minmax(0, 54fr);
     gap: 0;
-    margin-top: -4vw;
+    margin-top: 64px;
   }
   .hero-visual {
-    width: 88%;
+    width: 92%;
     margin-left: 0;
     transform: none;
   }
-  .portrait-cutout {
-    aspect-ratio: 564/745;
-  }
   .experience-badge {
-    left: 80%;
-    top: 30.6%;
-    width: 28%;
+    flex-basis: clamp(80px, 8.3vw, 120px);
+    margin-top: 32px;
   }
   .experience-badge > div {
     top: 20%;
@@ -1036,9 +1022,9 @@ strong {
     line-height: 1.15;
   }
   .quote {
-    width: 101%;
+    width: 100%;
     margin-left: 0;
-    margin-top: -22.5%;
+    margin-top: 12px;
     padding: 18px;
     gap: 14px;
   }
@@ -1054,7 +1040,7 @@ strong {
     font-size: 11px;
   }
   .hero-copy {
-    padding-top: 12vw;
+    padding-top: 0;
   }
   .hero-copy h2 {
     width: max-content;
@@ -1078,7 +1064,7 @@ strong {
     font-size: 12px;
   }
   .hero-star {
-    top: 10.5%;
+    top: 32px;
     right: 3%;
     width: 44px;
   }
@@ -1300,21 +1286,28 @@ strong {
     height: auto;
   }
   .hero {
-    padding-top: calc(40 * var(--u));
+    min-height: calc(860 * var(--u));
+    padding-top: calc(60 * var(--u));
+  }
+  .hero-heading-row {
+    gap: calc(40 * var(--u));
   }
   .hero h1 {
     margin-left: calc(3 * var(--u));
     font-size: calc(150 * var(--u));
+    line-height: 1.2;
   }
   .hero-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    margin-top: calc(-105 * var(--u));
+    margin-top: calc(85 * var(--u));
   }
   .hero-visual {
-    width: 85.4545%;
-    margin-left: -16.515%;
+    width: 86.36%;
+    max-width: none;
+    margin-left: -11.36%;
   }
   .quote {
+    margin-top: calc(20 * var(--u));
     gap: calc(21 * var(--u));
     padding: calc(40 * var(--u));
   }
@@ -1331,9 +1324,8 @@ strong {
     line-height: calc(25 * var(--u));
   }
   .experience-badge {
-    left: 84.57%;
-    top: 30.63%;
-    width: 28.37%;
+    flex-basis: calc(160 * var(--u));
+    margin-top: calc(90 * var(--u));
   }
   .experience-badge > div {
     top: 22%;
@@ -1348,14 +1340,14 @@ strong {
     line-height: 1;
   }
   .hero-copy {
-    padding-top: calc(189 * var(--u));
+    padding-top: 0;
   }
   .hero-copy h2 {
     font-size: calc(80 * var(--u));
   }
   .hero-description {
     max-width: calc(543 * var(--u));
-    margin-top: calc(136 * var(--u));
+    margin-top: calc(130 * var(--u));
     margin-left: calc(19 * var(--u));
     font-size: max(15px, calc(20 * var(--u)));
     line-height: 1.8;
@@ -1390,7 +1382,7 @@ strong {
     width: calc(80 * var(--u));
   }
   .hero-flourish {
-    top: calc(361 * var(--u));
+    top: calc(370 * var(--u));
     width: 20%;
   }
   .flourish-line {
@@ -1696,9 +1688,6 @@ strong {
   }
   .hero h1 {
     font-size: 35px;
-  }
-  .hero-visual {
-    width: 82%;
   }
   .quote {
     padding: 16px;
