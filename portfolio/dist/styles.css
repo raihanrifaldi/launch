@@ -479,6 +479,9 @@ strong {
 }
 .hero-copy > .lime-button {
   margin: 26px 0 0 26px;
+  min-height: 52px;
+  padding: 14px 28px;
+  font-size: 14px;
 }
 .vertical-name {
   display: none;
@@ -1145,9 +1148,9 @@ strong {
     top: 10px;
   }
   .hero-copy > .lime-button {
-    min-height: 44px;
+    min-height: 50px;
     margin: 28px 0 0 20%;
-    font-size: 12px;
+    font-size: 13px;
   }
   .hero-star {
     top: 32px;
@@ -1451,11 +1454,11 @@ strong {
     height: calc(13 * var(--u));
   }
   .hero-copy > .lime-button {
-    width: max(156px, calc(191 * var(--u)));
-    min-height: max(44px, calc(50 * var(--u)));
+    width: max(228px, calc(280 * var(--u)));
+    min-height: max(50px, calc(56 * var(--u)));
     margin-top: calc(51 * var(--u));
     margin-left: 27.7273%;
-    font-size: max(12px, calc(14 * var(--u)));
+    font-size: max(13px, calc(16 * var(--u)));
   }
   .vertical-name {
     position: absolute;
