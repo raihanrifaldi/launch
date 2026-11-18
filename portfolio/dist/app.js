@@ -81,18 +81,12 @@ const quoteCarousel = document.querySelector(".quote-carousel");
 if (quoteCarousel) {
   const deck = quoteCarousel.querySelector(".quote-deck");
   const cards = [...deck.querySelectorAll(".quote")];
-  const pause = quoteCarousel.querySelector(".quote-pause");
   const motion = window.matchMedia("(prefers-reduced-motion: reduce)");
   let timer;
-  let paused = false;
-  let hovered = false;
-  let focused = false;
 
   function syncQuoteRotation() {
     window.clearInterval(timer);
-    pause.hidden = motion.matches;
-    if (paused || hovered || focused || motion.matches || document.hidden)
-      return;
+    if (motion.matches || document.hidden) return;
     timer = window.setInterval(() => {
       deck.classList.add("is-rotating");
       const next = { top: "bottom", active: "top", bottom: "active" };
@@ -102,37 +96,6 @@ if (quoteCarousel) {
     }, 4000);
   }
 
-  pause.addEventListener("click", () => {
-    paused = !paused;
-    if (!paused) {
-      hovered = false;
-      focused = false;
-    }
-    pause.textContent = paused ? "Resume" : "Pause";
-    pause.setAttribute("aria-pressed", String(paused));
-    pause.setAttribute(
-      "aria-label",
-      paused ? "Resume quote rotation" : "Pause quote rotation",
-    );
-    syncQuoteRotation();
-  });
-  quoteCarousel.addEventListener("pointerenter", (event) => {
-    if (event.pointerType !== "mouse") return;
-    hovered = true;
-    syncQuoteRotation();
-  });
-  quoteCarousel.addEventListener("pointerleave", () => {
-    hovered = false;
-    syncQuoteRotation();
-  });
-  quoteCarousel.addEventListener("focusin", () => {
-    focused = true;
-    syncQuoteRotation();
-  });
-  quoteCarousel.addEventListener("focusout", (event) => {
-    focused = quoteCarousel.contains(event.relatedTarget);
-    syncQuoteRotation();
-  });
   document.addEventListener("visibilitychange", syncQuoteRotation);
   motion.addEventListener("change", syncQuoteRotation);
   syncQuoteRotation();
